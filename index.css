@@ -1,0 +1,113 @@
+/* centrado en eje x */
+/* .container{
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.child-element{
+    width: 300px;
+    height: 300px;
+    background-color: azure;
+    border-radius: 25px;
+    margin: 0 auto;
+} */
+
+/* centrar en X y Y usando position */
+/* .container{
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 25px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.child-element{
+    width: 300px;
+    height: 300px;
+    background-color: azure;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+} */
+
+
+/* flex  */
+/* .container{
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-element{
+    width: 300px;
+    height: 300px;
+    background-color: azure;
+    border-radius: 25px;
+    margin: 0 auto;
+} */
+
+/* grid */
+
+.container{
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: grid;
+    place-content: center;
+}
+
+.child-element{
+    width: 300px;
+    height: 300px;
+    background-color: azure;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+/* grid con pading */
+
+.container{
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: grid;
+}
+
+.child-element{
+    width: 300px;
+    height: 300px;
+    background-color: azure;
+    border-radius: 25px;
+    margin: 0 auto;
+    justify-self: center;
+    align-self: center;
+    /* o solo con place-self: center; se obtiene el mismo resultado que 
+    con justify-self y aling-self */
+}
+
+
+.img{
+    width: 200px;
+    height: 100px;
+}
+
